@@ -3,6 +3,11 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "lp1.destravandoianapratica.com.br" }],
+      "destination": "/Metodo-PROA-Goiania"
+    },
     { "source": "/", "destination": "/Metodo-PROA-Dourados" }
   ],
   "headers": [
